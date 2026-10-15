@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: #ffc0cb; /* Pink background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #ffffff; /* White title */
+            text-align: center; /* Centered */
+            font-size: 3em;
+            margin-bottom: 40px;
+        }
+        .shops-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .shop-item {
+            text-align: center;
+        }
+        img {
+            width: 250px;
+            height: 150px;
+            object-fit: contain;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: block;
+            margin-bottom: 15px;
+        }
+        .shop-item a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .shop-item a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ffffff;
+            width: 100%;
+            margin: 40px 0 20px 0;
+        }
+        footer {
+            text-align: right; /* Aligned on the right side */
+            font-style: italic; /* Italic */
+            font-family: monospace; /* Monospace font */
+            color: #333;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Centered white title with at least 1 special character -->
+    <h1>Welcome & Enjoy Shopping!</h1>
+
+    <!-- Two images side by side representing online shops -->
+    <div class="shops-container">
+        <div class="shop-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg" alt="Shopee Logo">
+            <!-- Link under the first image -->
+            <br>
+            <a href="https://shopee.co.th" target="_blank">Visit Shopee</a>
+        </div>
+        
+        <div class="shop-item">
+            <img src="https://zonalogo.com/assets/tiktok-shop-logo.webp" alt="TikTok Shop Logo">
+            <!-- Link under the second image -->
+            <br>
+            <a href="https://www.tiktok.com" target="_blank">Visit TikTok Shop</a>
+        </div>
+    </div>
+
+    <!-- Horizontal line that separates the page -->
+    <hr>
+
+    <!-- Copyright aligned on the right, italic, and monospace -->
+    <footer>
+        &copy; wil 2026
+    </footer>
+
+</body>
+</html>
